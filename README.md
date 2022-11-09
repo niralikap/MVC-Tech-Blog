@@ -32,6 +32,19 @@ The application does the following:
 - When I click on the logout option in the navigation, then I am signed out of the site.
 - When I am idle on the site for more than a set time, then I am able to view comments but I am prompted to log in again before I can add, update, or delete comments.
 
+## Installation Instructions
+
+In order to run the app, we need to run the following commands:
+
+- npm i - This will install the node modules.
+- cd into the database and run "Source schema.sql".
+- npm run seed - This will seed the database.
+- npm start - This will run the app on the localhost.
+
+Also, the app is deployed to Heroku.
+
+Screenshots:
+
 ![Image](./public/assets/images/screenshot1.jpg)
 ![Image](./public/assets/images/screenshot2.jpg)
 ![Image](./public/assets/images/screenshot3.jpg)
